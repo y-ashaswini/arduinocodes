@@ -40,7 +40,7 @@ const int encoder_maximum = 32767;
 std_msgs::Int16 right_wheel_tick_count;
 ros::Publisher rightPub("right_ticks", &right_wheel_tick_count);
  
-std_msgs::Int16 left_wheel_tick_count;
+std_msgs::Int16 left_wheel_tick_count;  
 ros::Publisher leftPub("left_ticks", &left_wheel_tick_count);
  
 // Time interval for measurements in milliseconds
